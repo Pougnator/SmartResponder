@@ -89,3 +89,9 @@ Twilio can do all of these:
 - Route interactions to humans, bots, CRMs, or support tools
 
 So you can use Twilio as the telephony layer for your personal AI phone assistant, not only for customer support centers.
+
+## Secrets and security
+
+- Put real credentials only in local `.env` (already gitignored in this repo).
+- Keep `.env.example` with placeholders only.
+- If a secret was ever shared in chat/email/screenshots, rotate it in Twilio Console immediately.
